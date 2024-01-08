@@ -2,7 +2,7 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './App.css';
-import SideBar from './Sidebar';
+import Header from './Header';
 
 const App: React.FC = () => {
   const infoBoxAnimation = useSpring({
@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <SideBar show={true} />
+      <Header />
       <animated.div style={infoBoxAnimation} className="info-box">
         <h2>Gabriel Franco Pigozzo</h2>
         <p>Web Development - FullStack</p>

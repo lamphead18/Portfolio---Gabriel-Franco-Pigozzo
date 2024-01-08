@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 70px 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,25 +14,20 @@ body {
 }
 
 .info-box, .icon-box, .presentation-box {
-  max-width: 400px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 .info-box {
-  background-color: transparent;
-  padding: 20px;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 8px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  opacity: 0;
+  margin-top: 10%; /* Ajuste conforme necessário */
+  padding: 5%;
+  border-radius: 4px;
 }
 
 .icon-box {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .icon-box a {
@@ -45,17 +41,12 @@ body {
 }
 
 .presentation-box {
-  background-color: transparent;
-  padding: 20px;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 8px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  text-align: center;
-  opacity: 0;
+  padding: 5%;
+  border-radius: 4px;
+  margin-top: 5%; /* Ajuste conforme necessário */
 }
 
 .presentation-box h3 {
-  margin-bottom: 10px;
+  margin-bottom: 2%;
+  font-size: 1.5em; /* Use unidades em ou vw para tamanhos de fontes responsivos */
 }
